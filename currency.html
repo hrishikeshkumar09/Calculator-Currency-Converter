@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class=h1>
+        <a href="index.html"><button>Calculator</button></a>
+        <button>Currency Converter</button>
+    </div>
+    <div class="container2">
+        <div class="currency1">
+            <h3>Choose The Currency and Enter the Amount to Convert</h3>
+            <select id="cur1">
+                <option value="USD" selected>USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="HKD">HKD</option>
+                <option value="HUF">HUF</option>
+                <option value="ISK">ISK</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="KRW">KRW</option>
+                <option value="NZD">NZD</option>
+                <option value="NOK">NOK</option>
+                <option value="SGD">SGD</option>
+                <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" id="amount1" placeholder="0" value="1"/>
+        </div>
+        <div class="currency2">
+            <h3>Choose The Currency to which it will be Converted</h3>
+            <select id="cur2">
+                <option value="USD">USD</option>
+                <option value="INR" selected>INR</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="HKD">HKD</option>
+                <option value="HUF">HUF</option>
+                <option value="ISK">ISK</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="KRW">KRW</option>
+                <option value="NZD">NZD</option>
+                <option value="NOK">NOK</option>
+                <option value="SGD">SGD</option>
+                <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" id="amount2" placeholder="0" value="0"/>
+        </div>
+    </div>
+    <script src="currency.js"></script>
+</body>
+</html>
